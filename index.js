@@ -207,17 +207,179 @@ let f = 5;
 
 // Program to check if the person can vote or not
 
-let age = 120;
+// let age = 120;
 
-if (age >= 18 && age <= 120) {
-  console.log("You can vote");
-}
-else if(age <= 0){
-  console.log("Invalid Age");
-}
-else if (age > 120) {
-  console.log("Invalid Age");
-}
-else{
-  console.log("You cannot vote");
-}
+// if (age >= 18 && age <= 120) {
+//   console.log("You can vote");
+// }
+// else if(age <= 0){
+//   console.log("Invalid Age");
+// }
+// else if (age > 120) {
+//   console.log("Invalid Age");
+// }
+// else{
+//   console.log("You cannot vote");
+// }
+
+
+// Loops in JS
+
+//Loops are used to execute the same block of code again and again, as long as a certain condition is true.
+
+//Types of Loops in JS:
+//1. For Loop
+//2. While Loop
+//3. Do...While Loop
+//4. For...In Loop
+//5. For...Of Loop
+
+//1. For Loop
+
+//The for loop is used to execute a block of code a number of times.
+
+//Example:
+
+// let i = 1;
+
+// for (i; i <= 70; i++) {
+//   // Syntax of for loop: for(initialization; condition; increment/decrement)
+//   console.log(i);
+// }
+
+//2. While Loop
+
+//The while loop is used to execute a block of code as long as a condition is true.
+
+//Example:
+
+// let j = 1;
+
+// while (j <= 5) { // Infinite Loop
+//   console.log(j);
+//   j++;
+// }
+
+
+//3. Do...While Loop
+
+//The do...while loop is used to execute a block of code once, and then repeat the loop as long as a condition is true.
+
+//Example:
+
+// let k = 1;
+
+// do {
+//   console.log(k);
+//   k++;
+// }while (k >= 5); //false
+
+//4. For...In Loop
+
+//The for...in loop is used to loop through the properties of an object.
+
+//Example:
+
+// let person = {
+//   name: "John",
+//   age: 30,
+//   city: "New York",
+//   bloodGroup: "B+",
+//   job: "Developer"
+// };
+
+// for (let x in person) { // iterates over the properties of an object
+//   console.log("key= ", x, "value= ", person[x]);
+// }
+
+//5. For...Of Loop
+
+//The for...of loop is used to loop through the values of an iterable object.
+
+// let name = "John";
+
+// for (let y of name) { // iterates over the values of an iterable object
+//   console.log(y);
+// }
+
+
+// Ques1. Program to print the numbers from 1 to 100
+
+// let num = 1;
+
+// for (num; num <= 100; num++) {
+//   console.log(num);
+// }
+
+// Ques2. Program to print the numbers which are even
+
+// let nums = 0;
+
+// for(nums; nums <= 100; nums++){
+//   if(nums % 2 !== 0) {
+//     console.log(nums);
+//   }
+//   else{
+
+//   }
+// }
+
+
+//Ques3. Multiplication table print
+
+// let start = 5;
+
+// for(let i = 1; i <=10; i++) {
+//   const table = start * i;
+
+  // console.log(`${start} * ${i} = ${table}`); // String Interpolation
+  
+// }
+
+
+
+
+// let name = "Ansal Pandey"
+// let name2 = 'Ansal Pandey'
+
+// name = "Ansal"
+
+// console.log(name);
+
+//String Methods and properties
+
+let student = "          Ansal Pandey         "
+
+// ['Ansal', 'Pandey']
+
+// let length = student.length
+
+// console.log(length);
+
+// student = student.replaceAll("y", "e")
+
+// student = student.split(" ")
+
+// student = student.slice(5, 12)
+
+// student = student.toUpperCase()
+
+// student = student.charAt(6)
+
+// let age = 15;
+// console.log(typeof age);
+
+// age = age.toString()
+
+// student = student.trim()
+
+//Concatination = string + string
+
+let firstName = "Ansal"
+let endName = "Pandey"
+
+// console.log(firstName + " " + endName);
+// console.log(firstName, endName, "This is something something.");
+
+console.log(`${firstName} ${endName} This is something something.`);
+// console.log(student);
